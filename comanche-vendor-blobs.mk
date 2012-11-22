@@ -50,6 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/comanche/proprietary/lib/libc2d2_z180.so:system/lib/libc2d2_z180.so \
 	vendor/samsung/comanche/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
 	vendor/samsung/comanche/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
+    vendor/samsung/comanche/proprietary/lib/libwvm.so:system/lib/libwvm.so \
 	vendor/samsung/comanche/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
 	vendor/samsung/comanche/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
 	vendor/samsung/comanche/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
@@ -105,6 +106,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/comanche/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/samsung/comanche/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
 	vendor/samsung/comanche/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
+    vendor/samsung/comanche/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
 	vendor/samsung/comanche/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/comanche/proprietary/lib/libgemini.so:system/lib/libgemini.so \
 	vendor/samsung/comanche/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
