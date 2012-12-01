@@ -20,6 +20,21 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/comanche/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
+    vendor/samsung/comanche/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/samsung/comanche/proprietary/bin/LE_dut:system/bin/LE_dut \
+    vendor/samsung/comanche/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
+    vendor/samsung/comanche/proprietary/bin/qcom_audio_dut:system/bin/qcom_audio_dut \
+    vendor/samsung/comanche/proprietary/bin/qcom_dut:system/bin/qcom_dut \
+    vendor/samsung/comanche/proprietary/lib/modules/prima/prima_wlan.ko:system/lib/modules/prima_wlan.ko \
+    vendor/samsung/comanche/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WNCSS_cfg.dat \
+    vendor/samsung/comanche/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+    vendor/samsung/comanche/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
+    vendor/samsung/comanche/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
+    vendor/samsung/comanche/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
+    vendor/samsung/comanche/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
+    vendor/samsung/comanche/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
+    vendor/samsung/comanche/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+    vendor/samsung/comanche/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
 	vendor/samsung/comanche/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/samsung/comanche/proprietary/bin/btnvtool:system/bin/btnvtool \
 	vendor/samsung/comanche/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
@@ -36,6 +51,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/comanche/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
 	vendor/samsung/comanche/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
 	vendor/samsung/comanche/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
+    vendor/samsung/comanche/proprietary/lib/libaudiopolicy_sec.so:system/lib/libaudiopolicy_sec.so \
 	vendor/samsung/comanche/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
 	vendor/samsung/comanche/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
 	vendor/samsung/comanche/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
