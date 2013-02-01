@@ -109,6 +109,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/comanche/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/comanche/proprietary/lib/libgemini.so:system/lib/libgemini.so \
     vendor/samsung/comanche/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
+    vendor/samsung/comanche/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/vendor-camera.msm8960.so \
 	vendor/samsung/comanche/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
 	vendor/samsung/comanche/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
 	vendor/samsung/comanche/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
