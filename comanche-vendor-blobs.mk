@@ -20,6 +20,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/comanche/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so
 
 PRODUCT_COPY_FILES += \
+	vendor/samsung/comanche/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
 	vendor/samsung/comanche/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
 	vendor/samsung/comanche/proprietary/bin/btnvtool:system/bin/btnvtool \
 	vendor/samsung/comanche/proprietary/bin/ds_fmc_appd:system/bin/ds_fmc_appd \
@@ -102,12 +103,12 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/comanche/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
 	vendor/samsung/comanche/proprietary/lib/libAKM.so:system/lib/libAKM.so \
 	vendor/samsung/comanche/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-	vendor/samsung/comanche/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
 	vendor/samsung/comanche/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
 	vendor/samsung/comanche/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
 	vendor/samsung/comanche/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
 	vendor/samsung/comanche/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
 	vendor/samsung/comanche/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+    vendor/samsung/comanche/proprietary/lib/libcamera_client.so:system/lib/libcamera_client.so \
 	vendor/samsung/comanche/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
 	vendor/samsung/comanche/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
 	vendor/samsung/comanche/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
