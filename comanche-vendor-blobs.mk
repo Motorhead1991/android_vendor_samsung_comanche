@@ -54,6 +54,8 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/comanche/proprietary/bin/qmuxd:system/bin/qmuxd \
         vendor/samsung/comanche/proprietary/bin/rmt_storage:system/bin/rmt_storage \
         vendor/samsung/comanche/proprietary/bin/rild:system/bin/rild \
+        vendor/samsung/comanche/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so \
+        vendor/samsung/comanche/proprietary/lib/libril.so:system/lib/libril.so \
         vendor/samsung/comanche/proprietary/lib/libsecril-client.so:system/lib/libsecril-client.so \
         vendor/samsung/comanche/proprietary/lib/libqmi.so:system/lib/libqmi.so \
         vendor/samsung/comanche/proprietary/lib/libqdi.so:system/lib/libqdi.so \
