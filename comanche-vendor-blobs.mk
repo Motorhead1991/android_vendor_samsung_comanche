@@ -21,9 +21,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/comanche/proprietary/etc/thermald-8930.conf:system/etc/thermald-8930.conf \
         vendor/samsung/comanche/proprietary/etc/thermald-8960.conf:system/etc/thermald-8960.conf \
         vendor/samsung/comanche/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-        vendor/samsung/comanche/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-        vendor/samsung/comanche/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
-        vendor/samsung/comanche/proprietary/lib/libaudioparsers.so:system/lib/libaudioparsers.so \
         vendor/samsung/comanche/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
         vendor/samsung/comanche/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
         vendor/samsung/comanche/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
@@ -124,4 +121,5 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/comanche/proprietary/bin/LE_dut:system/bin/LE_dut \
         vendor/samsung/comanche/proprietary/bin/qcom_audio_dut:system/bin/qcom_audio_dut \
         vendor/samsung/comanche/proprietary/bin/qcom_dut:system/bin/qcom_dut \
-        vendor/samsung/comanche/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so
+        vendor/samsung/comanche/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
+        vendor/samsung/comanche/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so
