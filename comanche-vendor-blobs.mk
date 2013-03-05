@@ -16,7 +16,7 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-  vendor/samsung/apexqtmo/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
+  vendor/samsung/comanche/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
 
 PRODUCT_COPY_FILES += \
         vendor/samsung/comanche/proprietary/bin/mpdecision:system/bin/mpdecision \
@@ -90,9 +90,9 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/comanche/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
         vendor/samsung/comanche/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
         vendor/samsung/comanche/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
-        vendor/samsung/apexqtmo/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
+        vendor/samsung/comanche/proprietary/lib/libimage-jpeg-dec-omx-comp.so:system/lib/libimage-jpeg-dec-omx-comp.so \
         vendor/samsung/comanche/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
-        vendor/samsung/apexqtmo/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
+        vendor/samsung/comanche/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
         vendor/samsung/comanche/proprietary/lib/libvdis.so:system/lib/libvdis.so \
         vendor/samsung/comanche/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
         vendor/samsung/comanche/proprietary/lib/libgemini.so:system/lib/libgemini.so \
