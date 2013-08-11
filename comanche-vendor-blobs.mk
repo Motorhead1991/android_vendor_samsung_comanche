@@ -16,7 +16,8 @@
 
 # Prebuilt libraries that are needed to build open-source libraries
 PRODUCT_COPY_FILES += \
-  vendor/samsung/comanche/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
+  vendor/samsung/comanche/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
+  vendor/samsung/apexqtmo/proprietary/lib/libloc_api_v02.so:obj/lib/libloc_api_v02.so
 
 PRODUCT_COPY_FILES += \
         vendor/samsung/comanche/proprietary/bin/mpdecision:system/bin/mpdecision \
