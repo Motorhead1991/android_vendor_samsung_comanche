@@ -21,9 +21,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
         vendor/samsung/comanche/proprietary/bin/mpdecision:system/bin/mpdecision \
         vendor/samsung/comanche/proprietary/bin/thermald:system/bin/thermald \
-        vendor/samsung/comanche/proprietary/etc/thermald-8064.conf:system/etc/thermald-8064.conf \
-        vendor/samsung/comanche/proprietary/etc/thermald-8930.conf:system/etc/thermald-8930.conf \
-        vendor/samsung/comanche/proprietary/etc/thermald-8960.conf:system/etc/thermald-8960.conf \
+        vendor/samsung/comanche/proprietary/etc/thermald.conf:system/etc/thermald.conf \
         vendor/samsung/comanche/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
         vendor/samsung/comanche/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
         vendor/samsung/comanche/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
