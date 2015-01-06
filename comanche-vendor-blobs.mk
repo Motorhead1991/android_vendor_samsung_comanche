@@ -113,19 +113,24 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/comanche/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
         vendor/samsung/comanche/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
         vendor/samsung/comanche/proprietary/lib/libdiag.so:system/lib/libdiag.so \
+
+# Wifi
         vendor/samsung/comanche/proprietary/bin/macloader:system/bin/macloader \
+        vendor/samsung/comanche/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
+        vendor/samsung/comanche/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
+        vendor/samsung/comanche/proprietary/etc/hostapd/hostapd_default.conf:system/etc/hostapd/hostapd_default.conf \
         vendor/samsung/comanche/proprietary/etc/wifi/wpa_supplicant.conf:system/etc/wifi/wpa_supplicant.conf \
         vendor/samsung/comanche/proprietary/etc/firmware/wcnss.b00:system/etc/firmware/wcnss.b00 \
         vendor/samsung/comanche/proprietary/etc/firmware/wcnss.b01:system/etc/firmware/wcnss.b01 \
         vendor/samsung/comanche/proprietary/etc/firmware/wcnss.b02:system/etc/firmware/wcnss.b02 \
         vendor/samsung/comanche/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
+        vendor/samsung/comanche/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
         vendor/samsung/comanche/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-        vendor/samsung/comanche/proprietary/etc/firmware/wlan/prima/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
-        vendor/samsung/comanche/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini:system/etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini \
+
         vendor/samsung/comanche/proprietary/bin/hciattach:system/bin/hciattach \
         vendor/samsung/comanche/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
         vendor/samsung/comanche/proprietary/bin/LE_dut:system/bin/LE_dut \
         vendor/samsung/comanche/proprietary/bin/qcom_audio_dut:system/bin/qcom_audio_dut \
         vendor/samsung/comanche/proprietary/bin/qcom_dut:system/bin/qcom_dut \
         vendor/samsung/comanche/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
-        vendor/samsung/comanche/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.MSM8960.so
+        vendor/samsung/comanche/proprietary/lib/hw/nfc.MSM8960.so:system/lib/hw/nfc.msm8960.so
