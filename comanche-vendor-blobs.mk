@@ -111,8 +111,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/comanche/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
         vendor/samsung/comanche/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
         vendor/samsung/comanche/proprietary/lib/libdiag.so:system/lib/libdiag.so \
-
-# Wifi
         vendor/samsung/comanche/proprietary/bin/macloader:system/bin/macloader \
         vendor/samsung/comanche/proprietary/etc/hostapd/hostapd.accept:system/etc/hostapd/hostapd.accept \
         vendor/samsung/comanche/proprietary/etc/hostapd/hostapd.deny:system/etc/hostapd/hostapd.deny \
@@ -124,7 +122,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/comanche/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
         vendor/samsung/comanche/proprietary/etc/firmware/wcnss.b05:system/etc/firmware/wcnss.b05 \
         vendor/samsung/comanche/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
-
         vendor/samsung/comanche/proprietary/bin/hciattach:system/bin/hciattach \
         vendor/samsung/comanche/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
         vendor/samsung/comanche/proprietary/bin/LE_dut:system/bin/LE_dut \
