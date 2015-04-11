@@ -27,18 +27,6 @@ PRODUCT_COPY_FILES += \
         vendor/samsung/comanche/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
         vendor/samsung/comanche/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
         vendor/samsung/comanche/proprietary/lib/libdivxdrm.so:system/lib/libdivxdrm.so \
-        vendor/samsung/comanche/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-        vendor/samsung/comanche/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-        vendor/samsung/comanche/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-        vendor/samsung/comanche/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-        vendor/samsung/comanche/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-        vendor/samsung/comanche/proprietary/lib/egl/libGLESv2S3D_adreno200.so:system/lib/egl/libGLESv2S3D_adreno200.so \
-        vendor/samsung/comanche/proprietary/lib/libgsl.so:system/lib/libgsl.so \
-        vendor/samsung/comanche/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-        vendor/samsung/comanche/proprietary/lib/libC2D2.so:system/lib/libc2d2.so \
-        vendor/samsung/comanche/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
-        vendor/samsung/comanche/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
-        vendor/samsung/comanche/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
         vendor/samsung/comanche/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
         vendor/samsung/comanche/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
         vendor/samsung/comanche/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
